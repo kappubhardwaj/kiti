@@ -1,0 +1,29 @@
+{
+  "name": "kiti-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Kiti application with user authentication and OTP handling.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^11.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^6.4.17",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
